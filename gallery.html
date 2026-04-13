@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - HUMMER FITNESS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader-circle"></div>
+        <div class="loader-text"><span class="logo-m">HUMMER</span> FITNESS</div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><span class="logo-m">HUMMER</span><span class="logo-gym"> FITNESS</span></h1>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <svg class="tire-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="32" cy="45" r="15" stroke="currentColor" stroke-width="6" stroke-dasharray="4 2"/>
+                    <path d="M15 55 L22 40 L30 35 L35 25" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="38" cy="20" r="4" fill="currentColor"/>
+                    <path d="M22 40 L35 45" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="body-changes.html">BODY CHANGES</a></li>
+                <li><a href="gallery.html" class="active">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <div class="about-hero-bg" style="background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover; position: absolute; inset: 0;"></div>
+        
+        <div class="about-hero-content">
+            <div class="bg-faded-text">OUR FACILITY</div>
+            <div class="subtitle">
+                <span class="line"></span> INSIDE THE GYM
+            </div>
+            <h1>GALLERY</h1>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="gym1.jpg" alt="Gym 1">
+                <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="gym2.jpg" alt="Gym 2">
+                <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="gym3.jpg" alt="Gym 3">
+                <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="gym4.jpg" alt="Gym 4">
+                <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="gym5.jpg" alt="Gym 5">
+                <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="gym6.jpg" alt="Gym 6">
+                <div class="gallery-overlay"><i class="fa-solid fa-expand"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox"><i class="fa-solid fa-xmark"></i></span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Get In Touch</h3>
+                <p><i class="fa-solid fa-location-dot location-icon"></i> Thurakkal, Manjeri, Kerala</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <div class="copyright-text">
+                2024 &copy; Developed By <span class="dev-name">Ahmad</span>
+            </div>
+            
+            <div class="bottom-corner-icons">
+                <a href="https://wa.me/917510173642"><i class="fa-brands fa-whatsapp icon-whatsapp"></i></a>
+                <a href="tel:+917510173642"><i class="fa-solid fa-phone icon-phone"></i></a>
+                <a href="#"><i class="fa-brands fa-google icon-google"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        <i class="fa-solid fa-angles-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
